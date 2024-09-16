@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>заполните форму</h2>
+    <h3 id="sms"></h3>
+    
+    <form  id="forma" name="form_name"  method="get">
+
+
+<label for="name">введите имя</label>
+    <input type="text" name ="name"> 
+    <p id="errorN" class="error"></p>
+
+    <label for="data">введите год рождения</label>
+    <input type="number" name ="data"> 
+    <p id="errorD" class="error"></p>
+
+     <input type="submit" value="отправить" name="form_name" class="sub">
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
